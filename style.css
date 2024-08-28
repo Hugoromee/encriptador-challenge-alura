@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F5FC;
+    height: 100vh;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px; 
+}
+
+#entrada__texto {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", "Bold";
+}
+
+#salida__texto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", "Bold";
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    color: brown;
+    font-family: "Inter", "Bold";
+}
+
+#salida {
+    font-size: 1.5rem;
+    color: red;
+    font-family: "Inter", "Bold";
+}
+
+
+#botones {
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", "Bold";
+}
+
+#encriptar:hover{
+    color: #a200ff;
+}
+
+#decencriptar:hover {
+    color: #a200ff;
+}
+.copia__Boton {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    color: green;
+    font-family: "Inter", "Bold";
+}
+
+#encriptar {
+    color: black;
+ 
+}
+
+#decencriptar {
+    color: black;
+}
+
+.footer{
+    color: #a200ff;
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+    font-family: "Inter", "Regular";
+    text-decoration:none;
+}
